@@ -102,7 +102,7 @@ nav li a{
     margin-right: 10px;
 }
 .banner-btn-2{
-    background-color: #FF42A5;
+    background-color: #4EC5F7;
     border: 0;
     border-radius: 20px;
     width: 100px;
@@ -133,7 +133,7 @@ nav li a{
 }
 .gamer-title{
     font-size: 2em;
-    color: #FF42A5;
+    color: #B352D9;
     margin-bottom: 20px;
 }
 
@@ -172,6 +172,7 @@ nav li a{
 
 .play-instantly-title{
     font-size: 2em;
+    margin-bottom: 10px;
 
 }
 
