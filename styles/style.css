@@ -1,0 +1,357 @@
+*{
+    font-family: 'Lato', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Work Sans', sans-serif;
+margin: 0;
+padding: 0;
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    margin-top: 30px;
+
+}
+.socials{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid; */
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    /* box-shadow: 5px 10px 18px #888888 */
+}
+
+.nav-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    
+}
+
+nav .nav-title h2{
+    font-size: 2em;
+}
+.primary-color{
+    color: #FF42A5;
+}
+
+.nav-title img{
+    width: 50px;
+    height: 30px;
+
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav li {
+    list-style: none;
+    margin-right: 20px;
+}
+nav li a{
+    text-decoration: none;
+}
+
+.banner{
+    margin: 100px 0;
+    /* margin: 100px auto; */
+    /* width: 1120px; */
+    /* width: 100%; */
+    /* height: 100vh; */
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    /* padding: 30px; */
+    align-items: center;
+    background-image: url(../images/Group\ 14.png);
+}
+.banner .banner-info{
+    width: 100%;
+    /* text-align: ; */
+    text-align: justify;
+    /* padding: 20px; */
+    margin-left: 100px;
+}
+.banner .banner-img{
+    width: 80%;
+    height: 700px;
+    margin-right: 100px;
+}
+.banner .banner-info h3{
+    font-size: 2em;
+}
+.banner .banner-info h2{
+    font-size: 4em;
+    font-weight: bolder;
+    color: #B352D9;
+    margin-bottom: 10px;
+}
+.banner-btn-1{
+    background-color: #FF42A5;
+    border: 0;
+    border-radius: 20px;
+    width: 100px;
+    height: 40px;
+    color: white;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+.banner-btn-2{
+    background-color: #FF42A5;
+    border: 0;
+    border-radius: 20px;
+    width: 100px;
+    height: 40px;
+    color: white;
+    margin-top: 20px;
+
+}
+
+.we-r-gamer{
+    /* margin-top: 0; */
+
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+    align-items: center;
+    background-image: url(../images/Group\ 14.png);
+}
+.gamer-info{
+    text-align: end;
+    margin-right: 100px;
+    width: 50%;
+}
+.gamer-img{
+    margin-left: 30px;
+    /* width: 30%;
+    height: 30%; */
+}
+.gamer-title{
+    font-size: 2em;
+    color: #FF42A5;
+    margin-bottom: 20px;
+}
+
+.funny-videos{
+    margin-top: 150px auto;
+}
+.funny-videos-title{
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+.funny-videos-images{
+    display: flex;
+    /* width: 100%; */
+    justify-content: space-around;
+    gap: 10px;
+    margin: 50px;
+    padding: 10px;
+
+}
+.funny-videos-images img{
+    width: 600;
+    height: 300px;
+    margin-bottom: 15px;
+}
+
+.funny-videos-description{
+    text-align: center;
+}
+.play-instantly{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 60px 60px;
+    /* margin: 150px 50px; */
+}
+
+.play-instantly-title{
+    font-size: 2em;
+
+}
+
+.instant-img{
+    position: relative;
+    width: 50%;
+}
+
+.instant-img img{
+    /* width: 100%; */
+    width: 400px;
+}
+.relative{
+    position: absolute;
+    top: 60%;
+    left: -25%;
+    
+}
+.relative img{
+    width: 250px;
+    height: 200px;
+}
+.games-variation{
+    margin-top: 200px;
+}
+.games{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.games-container-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.games-container-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+}
+footer{
+    margin-top: 50px;
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+.logo-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.others-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.others-section li{
+    list-style: none;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+.social-media .fb, .tiktok,.insta,.twitter,.linkedin{
+    width: 50px;
+    height: 25px;
+    border-radius: 50px;
+}
+.others-section li a {
+    text-decoration: none;
+    color: white;
+}
+.social-media{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 30px;
+}
+.others-msg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    /* color: whtie; */
+}
+.others-msg li{
+    list-style: none;
+    margin-right: 30px;
+    /* color: white; */
+}
+.others-msg li a{
+    text-decoration: none;
+    color: white;
+}
+.footer-info{
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* mobile responsive */
+
+@media  screen and (max-width:576px) {
+    nav{
+        flex-direction: column;
+        padding: 0px;
+        /* margin: 0px; */
+    }
+    .nav-menu ul{
+        display: flex;
+        flex-direction: column;
+        justify-self: center;
+        align-items: center;
+        
+    }
+    .nav-menu ul li{
+        padding: 10px;
+        margin: 10px;
+    }
+    .banner-img{
+        width: 100px;
+        margin-right: 0;
+        align-items: center;
+        height: 50px;
+        
+        padding-right: 0;
+    }
+    header .banner{
+        margin: 0;
+        padding: 0;
+        /* width: 100%;
+        height: 300px; */
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .we-r-gamer{
+        flex-direction: column-reverse;
+        margin: 0;
+        padding: 10px;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+        
+    }
+    .gamer-img{
+        /* width: 200px; */
+        margin: 0px;
+        padding: 0px;
+        width: 30px;
+        height: 30px;
+    }
+    
+}
